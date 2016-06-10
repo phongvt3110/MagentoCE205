@@ -1,0 +1,4 @@
+<?php
+echo "hello world from the template php code";
+?>
+<h1>Hello world message from the template html h1 tag</h1>

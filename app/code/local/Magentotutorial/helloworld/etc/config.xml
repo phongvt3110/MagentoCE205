@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Magentotutorial_Helloworld>
+			<version>0.1.0</version>
+		</Magentotutorial_Helloworld>
+	</modules>
+	<frontend>
+		<routers>
+			<helloworld>
+				<use>standard</use>
+				<args>Magentotutorial_Helloworld</args>
+				<fronName>helloworld</fronName>
+			</helloworld>
+		</routers>
+		<layout>
+			<updates>
+				<helloworld>
+					<file>helloworld.xml</file>
+				</helloworld>
+			</updates>
+		</layout>
+	</frontend>
+</config>
